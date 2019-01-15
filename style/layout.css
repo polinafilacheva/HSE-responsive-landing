@@ -49,3 +49,45 @@ header nav {
   font-size: 16px;
   font-weight: 700;
 }
+
+.cros {
+  padding-top: 90px;
+}
+
+.cros article {
+  width: 260px;
+  height: 292px;
+  margin: 0 auto;
+
+  text-align: center;
+
+  border-radius: 3px;
+  background: #FFF;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.cros article+article {
+  margin-top: 30px;
+}
+
+.cros article img {
+  padding-top: 30px;
+}
+
+.cros article h2 {
+  padding-top: 20px;
+
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cros article p {
+  padding: 10px 20px 0 20px;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-size: 16px;
+  line-height: 120%;
+}
