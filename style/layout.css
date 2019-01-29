@@ -91,3 +91,130 @@ header nav {
   font-size: 16px;
   line-height: 120%;
 }
+
+.reviews p {
+  color: rgba(255, 255, 255, 1);
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 60px;
+
+  background-color: rgba(56, 56, 86, 1);
+
+  align-items: center;
+}
+
+.reviews h2 {
+  margin-top: 18px;
+
+  color: rgba(255, 255, 255, 1);
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+blockquote:first-of-type {
+  margin-top: 30px;
+}
+
+blockquote {
+  margin-top: 20px;
+  padding: 11px 43px 16px 30px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+blockquote p:first-of-type {
+  width: 190px;
+
+  font-family: 'Geordia', serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 120%;
+}
+
+blockquote p {
+  margin-top: 34px;
+
+  vertical-align: baseline;
+
+  font-family: 'Roboto', sans-serif;
+
+  align-items: center;
+}
+
+blockquote p img {
+  width: 20px;
+}
+
+.quote-img {
+  top: 15px;
+  left: 15px;
+
+  width: 24px;
+}
+
+.price {
+  padding: 60px 30px 96px 30px;
+}
+
+.price-item {
+  height: 398px;
+  margin: 0 auto;
+  padding: 20px 43px 41px 30px;
+
+  border-radius: 3px;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+}
+
+.price h4 {
+  margin-top: 10px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.price h3 {
+  margin-top: 12px;
+  margin-bottom: 27px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.price li {
+  color: rgba(0, 0, 0, 0.5);
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.price li + li {
+  margin-top: 20px;
+}
+
+.price h2 {
+  height: 57px;
+  margin-top: 2px;
+  margin-left: 68px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.price button {
+  margin-top: 52px;
+  padding: 10px 40px;
+
+  background-color: #FFAC3E;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
